@@ -12,6 +12,29 @@ class User extends Authenticatable
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory, Notifiable;
 
+    const ROLE_USER = 'customer';
+    const ROLE_ADMIN = 'provider';
+
+    public function customer() {
+        return $this->hasOne(Customer::class, 'user_id'); 
+    }
+
+    public function provider() {
+        return $this->hasOne(Provider::class, 'user_id'); 
+    }
+
+    public function orders() {
+        return $this->hasOne(Orders::class, 'user_id'); 
+    }
+
+    public function payments() {
+        return $this->hasOne(Payments::class, 'user_id'); 
+    }
+
+    public function reviews() {
+        return $this->hasOne(Reviews::class, 'user_id'); 
+    }
+
     /**
      * The attributes that are mass assignable.
      *
@@ -21,6 +44,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role',
     ];
 
     /**
