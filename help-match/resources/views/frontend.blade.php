@@ -314,6 +314,38 @@
         </div>
       </div><!-- End testimonial item -->
 
+      <div class="swiper-slide">
+        <div class="testimonial-item">
+          <img src="{{ asset('frontend/assets/img/testimonials/testimonials-4.jpg') }}" class="testimonial-img" alt="">
+          <h3>Matt Brandon</h3>
+          <h4>Freelancer</h4>
+          <div class="stars">
+            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+          </div>
+          <p>
+            <i class="bi bi-quote quote-icon-left"></i>
+            <span>Platformnya bagus dan user-friendly, tapi sayang sekali beberapa penyedia jasa terlambat datang. Mungkin Helpmatch bisa meningkatkan sistem verifikasi penyedia jasa agar lebih konsisten. Tapi overall, pengalaman saya cukup memuaskan..</span>
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="testimonial-item">
+          <img src="{{ asset('frontend/assets/img/testimonials/testimonials-5.jpg') }}" class="testimonial-img" alt="">
+          <h3>John Larson</h3>
+          <h4>Selebgram</h4>
+          <div class="stars">
+            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+          </div>
+          <p>
+            <i class="bi bi-quote quote-icon-left"></i>
+            <span>WOW bagus sekali sangat berguna untuk membantu pekerjaan karna saya tidak pakai ART.</span>
+            <i class="bi bi-quote quote-icon-right"></i>
+          </p>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -321,38 +353,6 @@
 
 </section><!-- /Testimonials Section -->
 
-
-<div class="swiper-slide">
-  <div class="testimonial-item">
-    <img src="{{ asset('frontend/assets/img/testimonials/testimonials-4.jpg') }}" class="testimonial-img" alt="">
-    <h3>Matt Brandon</h3>
-    <h4>Freelancer</h4>
-    <div class="stars">
-      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-    </div>
-    <p>
-      <i class="bi bi-quote quote-icon-left"></i>
-      <span>Platformnya bagus dan user-friendly, tapi sayang sekali beberapa penyedia jasa terlambat datang. Mungkin Helpmatch bisa meningkatkan sistem verifikasi penyedia jasa agar lebih konsisten. Tapi overall, pengalaman saya cukup memuaskan..</span>
-      <i class="bi bi-quote quote-icon-right"></i>
-    </p>
-  </div>
-</div><!-- End testimonial item -->
-
-<div class="swiper-slide">
-  <div class="testimonial-item">
-    <img src="{{ asset('frontend/assets/img/testimonials/testimonials-5.jpg') }}" class="testimonial-img" alt="">
-    <h3>John Larson</h3>
-    <h4>Selebgram</h4>
-    <div class="stars">
-      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-    </div>
-    <p>
-      <i class="bi bi-quote quote-icon-left"></i>
-      <span>WOW bagus sekali sangat berguna untuk membantu pekerjaan karna saya tidak pakai ART.</span>
-      <i class="bi bi-quote quote-icon-right"></i>
-    </p>
-  </div>
-</div><!-- End testimonial item -->
 
 <section id="contactUs" class="contact section">
 
